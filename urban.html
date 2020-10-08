@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>amzing landing page</title>
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+	*{
+		padding: 0;margin: 0;box-sizing: border-box;
+	}
+	.container{
+		height: 100vh;
+		width: 100%;
+		background-image: url(urbanfashion/background.png);
+		background-size: cover;
+		position: relative;
+		background-position: center;	
+	}
+	.navbar{
+		/*width: 100%;*/
+		/*height: 15vh;*/
+		/*margin: auto;*/
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+	}
+	.logo{
+		width: 160px;
+		cursor: pointer;
+	}
+	.cart{
+		width: 40px;
+		cursor: pointer;
+	}
+	nav ul{
+		display: flex;
+		list-style: none;
+		margin-top: 25px;
+	}
+
+	a{
+	margin: 0px 20px;
+	color: #555;
+	text-decoration: none;
+}
+
+.content h1{
+	font-size: 60px;
+	font-weight: 100;
+	margin-top: 24px;
+	margin-bottom: 15px;
+	color: #232d60;
+	font-family: 'Lobster', cursive;
+}
+.content p{
+	font-size: 20px;
+	color: #6a7199;
+}
+.content{
+	margin-left:10%;
+	margin-top:10%;
+}
+
+.content .btn{
+	display: inline-block;
+	background: linear-gradient(45deg,#87adfe,#ff77cd);
+	border-radius: 6px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: #fff;
+	/*box-shadow: 3px 8px 22px rgba(94,28,68,0.15);*/
+
+}
+.arrow-icons {
+	margin-top:40px;
+	display: flex; }
+
+.arrow-icons img{
+	width:40px;
+	margin-right: 25px; }
+.feature-img{
+	height: 90%;
+	position: absolute;
+	right: 160px;
+	bottom: 0px;
+}
+
+</style>
+
+</head>
+<body>
+<div class="container">
+	<div class="navbar">
+		<img src="urbanfashion/logo.png" class="logo">
+		<nav>
+			<ul>
+				<li><a href="">home</a></li>
+				<li><a href="">About</a></li>
+				<li><a href="">Collection</a></li>
+				<li><a href="">Category</a></li>
+				<img style="margin-top: -10px;" src="urbanfashion/cart.png" class="cart">
+			</ul>
+		</nav>
+	</div>
+
+	<div class="content">
+		<a href="" class="btn">2020 Collections</a>
+		<h1>You Should Always<br>Feel Preety</h1>
+		<p>Clothes that are sure to heatg up your winter.</p>
+
+		<div class="arrow-icons">
+			<a href="#"><img src="urbanfashion/back-arrow.png"></a>
+			<a href="#"><img src="urbanfashion/next-arrow.png"></a>
+		</div>
+
+	</div>
+
+				<img src="urbanfashion/img.png" class="feature-img">
+
+</div>
+
+</body>
+</html>
